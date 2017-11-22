@@ -1,0 +1,39 @@
+# IP address or DNS name of nodes.
+IP1="$NODE1_IP"
+IP2="$NODE2_IP"
+IP3="$NODE3_IP"
+IP4="$NODE4_IP"
+IP5="$NODE5_IP"
+HOSTIP="$(hostname -i)"
+
+# Set Edge sys admin credentials.
+ADMIN_EMAIL="$ADMIN_EMAIL"
+APIGEE_ADMINPW="$ADMIN_PWD"
+
+LICENSE_FILE="/tmp/apigee/license.txt"
+
+MSIP="$HOSTIP"
+USE_LDAP_REMOTE_HOST="n"
+APIGEE_LDAPPW="$ADMIN_PWD"
+LDAP_TYPE="1"
+
+BIND_ON_ALL_INTERFACES="y"
+
+MP_POD="gateway"
+
+REGION="dc-1"
+ZK_HOSTS="$IP1 $IP2 $IP3"
+ZK_CLIENT_HOSTS="$IP1 $IP2 $IP3"
+CASS_CLUSTERNAME="Apigee"
+CASS_HOSTS="$IP1:1,1 $IP2:1,1 $IP3:1,1"
+
+PG_MASTER="$IP4"
+PG_STANDBY="$IP5"
+
+SKIP_SMTP="n"
+SMTPHOST="smtp.gmail.com"
+SMTPUSER="smtp@example.com"
+SMTPPASSWORD="$ADMIN_PWD"
+SMTPMAILFROM="test <test@example.com>"
+SMTPSSL="n"
+SMTPPORT="25"

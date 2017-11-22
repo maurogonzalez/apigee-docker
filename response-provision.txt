@@ -1,0 +1,32 @@
+IP1="$(hostname -i)"
+
+MSIP="$IP1"
+
+ADMIN_EMAIL="$ADMIN_EMAIL"
+APIGEE_ADMINPW="$ADMIN_PWD"
+
+ORG_NAME="$ORG"
+
+NEW_USER="y"
+USER_NAME="$ADMIN_EMAIL"
+FIRST_NAME="Mr"
+LAST_NAME="Apigee"
+USER_PWD="$ADMIN_PWD"
+ORG_ADMIN="$ADMIN_EMAIL"
+
+ENV_NAME="$ORG_ENV"
+
+VHOST_PORT="9001"
+VHOST_NAME="default"
+
+VHOST_ALIAS="$NODE2_IP:9001 $NODE3_IP:9001"
+
+# Optionally configure TLS/SSL for virtual host.
+# VHOST_SSL=y     # Set to "y" to enable TLS/SSL on the virtual host.
+# KEYSTORE_JAR=   # JAR file containing the cert and private key.
+# KEYSTORE_NAME=  # Name of the keystore. 
+# KEYSTORE_ALIAS= # The key alias.
+# KEY_PASSWORD=   # The key password, if it has one.
+
+# Specify the analytics group. 
+# AXGROUP=axgroup-001 # Default name is axgroup-001.
