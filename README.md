@@ -120,4 +120,4 @@ Remove docker volumes:
 ## Author
 
 If you have any questions regarding this project contact:  
-Mauro González <mgonzalez@apigee.corp-partner.google.com>
+Mauro González <jmajma8@gmail.com>
