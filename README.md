@@ -1,7 +1,7 @@
 # Apigee Edge Docker 5-node installation
 
 ## Overview
-This projects installs and runs a 5-node [Apigee Edge for Private Cloud 4.17.09](https://docs.apigee.com/private-cloud/latest/overview) 
+This project installs and runs a 5-node [Apigee Edge for Private Cloud 4.17.09](https://docs.apigee.com/private-cloud/latest/overview) 
 with Developer Services portal using docker containers for testing purposes only. 
 
 Optionally you can install [Saml on Edge](https://docs.apigee.com/private-cloud/latest/supporting-saml-edge-private-cloud). 
