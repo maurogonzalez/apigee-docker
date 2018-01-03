@@ -37,6 +37,11 @@ please refer to the [Official Documentation](https://docs.apigee.com/private-clo
 
 ## Usage
 
+### Clone the repo
+```
+$ git clone https://github.com/maurogonzalez/apigee-docker.git
+```
+
 ### Fresh install
 1. Set `.env` file: 
     - ADMIN_USER: MS admin user and OrgAdmin user. 
