@@ -17,6 +17,8 @@ please refer to the [Official Documentation](https://docs.apigee.com/private-clo
 - docker >= 17.05.0-ce
 - docker-compose >= 1.11.2
 
+### It's recommended to have more than 8GB of RAM to run the 6 containers.
+
 ## Description
 - Builds an Apigee 4.17.09 image with the **apigee-setup-utility** that will run Centos7 with OpenJDK 1.8.
 
