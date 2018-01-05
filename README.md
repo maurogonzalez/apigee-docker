@@ -17,7 +17,7 @@ please refer to the [Official Documentation](https://docs.apigee.com/private-clo
 - docker >= 17.05.0-ce
 - docker-compose >= 1.11.2
 
-### It's recommended to have more than 8GB of RAM to run the 6 containers.
+It's recommended to have more than 8GB of RAM to run the 6 containers and \*nix OS.
 
 ## Description
 - Builds an Apigee 4.17.09 image with the **apigee-setup-utility** that will run Centos7 with OpenJDK 1.8.
@@ -100,18 +100,18 @@ List existing containers:
   - `docker ps -a -f "name=docker_apigee*"`
 
 Access a running container:
-  - `docker exec -it docker_apigee_node{NODE_NUMBER}_1 bash`
+  - `docker exec -it apigeedocker_apigee_node{NODE_NUMBER}_1 bash`
   
 Run a command inside a running container:
-  - `docker exec -it docker_apigee_node{NODE_NUMBER}_1 {COMMAND}`
+  - `docker exec -it apigeedocker_apigee_node{NODE_NUMBER}_1 {COMMAND}`
 
 ## Remove docker containers
 Remove containers:
   - Single container: `docker rm {DOCKER_CONTAINER_ID}`
-  - All containers: `docker rm $(docker ps -aq -f "name=docker_apigee*)`
+  - All containers: `docker rm $(docker ps -aq -f "name=apigeedocker_apigee*")`
 
 Remove docker volumes:
-  - `docker volume rm $(docker volume ls -q -f "name=docker_apigee*")`
+  - `docker volume rm $(docker volume ls -q -f "name=apigeedocker_apigee*")`
 
 ## NOTES
 - This will have your apigee license so **DO NOT** push it to a public docker registry.
